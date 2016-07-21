@@ -1,0 +1,118 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_644a3156",
+        "filename": "Android.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-21T19:51:03Z",
+      "side": 1,
+      "message": "does this service require signature level permissions?",
+      "revId": "424f30d645deade8fa71c77442cf117212486b23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_447b758b",
+        "filename": "Android.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-21T19:51:03Z",
+      "side": 1,
+      "message": "might as well remove this line",
+      "revId": "424f30d645deade8fa71c77442cf117212486b23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_04757d95",
+        "filename": "jni/Application.mk",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-21T19:51:03Z",
+      "side": 1,
+      "message": "Is Application.mk required when building this inline and not using the NDK?",
+      "revId": "424f30d645deade8fa71c77442cf117212486b23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_a46909bf",
+        "filename": "jni/src/org_cyanogenmod_cmaudio_service_CMAudioService.cpp",
+        "patchSetId": 11
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-21T19:51:03Z",
+      "side": 1,
+      "message": "nit: gThiz",
+      "range": {
+        "startLine": 67,
+        "startChar": 15,
+        "endLine": 67,
+        "endChar": 20
+      },
+      "revId": "424f30d645deade8fa71c77442cf117212486b23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_c46685ee",
+        "filename": "jni/src/org_cyanogenmod_cmaudio_service_CMAudioService.cpp",
+        "patchSetId": 11
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-21T19:51:03Z",
+      "side": 1,
+      "message": "nit: extra space",
+      "range": {
+        "startLine": 101,
+        "startChar": 41,
+        "endLine": 101,
+        "endChar": 42
+      },
+      "revId": "424f30d645deade8fa71c77442cf117212486b23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_249bd9c9",
+        "filename": "jni/src/org_cyanogenmod_cmaudio_service_CMAudioService.cpp",
+        "patchSetId": 11
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 9199
+      },
+      "writtenOn": "2016-07-21T19:51:03Z",
+      "side": 1,
+      "message": "\u003e 100 chars",
+      "revId": "424f30d645deade8fa71c77442cf117212486b23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
