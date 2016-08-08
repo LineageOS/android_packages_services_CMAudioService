@@ -25,7 +25,8 @@
     <uses-permission android:name="cyanogenmod.permission.BIND_CORE_SERVICE" />
     <uses-permission android:name="cyanogenmod.permission.MANAGE_AUDIO_SESSIONS" />
 
-    <application android:label="@string/app_name">
+    <application android:label="@string/app_name"
+                 android:icon="@mipmap/ic_cm_audio_service">
 
         <service android:name="org.cyanogenmod.cmaudio.service.CMAudioService"
                  android:permission="cyanogenmod.permission.BIND_CORE_SERVICE"
