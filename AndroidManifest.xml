@@ -26,7 +26,9 @@
     <uses-permission android:name="cyanogenmod.permission.MANAGE_AUDIO_SESSIONS" />
 
     <application android:label="@string/app_name"
-                 android:icon="@mipmap/ic_cm_audio_service">
+                 android:icon="@mipmap/ic_cm_audio_service"
+				 android:defaultToDeviceProtectedStorage="true"
+        	     android:directBootAware="true">
 
         <service android:name="org.cyanogenmod.cmaudio.service.CMAudioService"
                  android:permission="cyanogenmod.permission.BIND_CORE_SERVICE"
