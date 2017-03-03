@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -32,11 +33,6 @@ LOCAL_PROGUARD_ENABLED := disabled
 LOCAL_JNI_SHARED_LIBRARIES := libcmaudio_jni
 
 LOCAL_PRIVILEGED_MODULE := true
-
-# Sign the package when not using test-keys
-ifneq ($(DEFAULT_SYSTEM_DEV_CERTIFICATE),build/target/product/security/testkey)
-LOCAL_CERTIFICATE := cyngn-priv-app
-endif
 
 include $(BUILD_PACKAGE)
 
